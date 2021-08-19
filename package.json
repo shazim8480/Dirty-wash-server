@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "shazim_dirty-Wash",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs-extra": "^10.0.0",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
